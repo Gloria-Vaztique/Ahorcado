@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+ <html lang="es">
+   <head>
+     <title>AHORCADO</title>
+ 		<link rel="stylesheet" href="style.css"/>
+     <script src="script.js" defer></script>
+     <meta http-equiv="Content-Type" content="text/html;" charset="utf-8"/>
+   </head>
+   <body style="line-height: 1; font-family: geneva;"> 
+    <h1><img src="9.png"></h1>
+    <p style="font-size:30px; text-align: center; font: weight 750px; color: rgb(0, 0, 0);">El juego del ahorcado es un juego de adivinanza de palabras, consiste en descifrar la palabra sin cometer muchos errores. 
+      <br>
+      Por cada error, pierdes una oprtunidad, tienes 5 oportunidades.</p>
+     <input type="text" id="guess-input"/>
+     <button id="guess-button">Intentar</button>
+     <div id="grid"></div>
+     <p style="text-align: center;" id="guesses"></p>
+  <ul class="indicacion" style="font-family:geneva; font-size:larger; line-height: 1;padding-left: 30%;">
+      Si te salen las cajas pintadas de los siguentes colores, significan:
+      <li>Lila: La letra pertenece a la palabra pero no está en el lugar correcto.</li>
+      <li>Azul: La letra está en el lugar correcto.</li>
+      <li>Gris: La letra no pertenece a la palabra.</li>
+  </ul>
+   </body>
+ </html>
