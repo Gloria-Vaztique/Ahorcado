@@ -1,7 +1,11 @@
 
-let diccionario = ["ANIME", "KIKIO", "JAKEN", "SANGO", "KAEDE", "KANNA", "HANYO", "PERRO", "ABAJO",
-     "PERLA", "LINDA", "YOKAI", "ÁRBOL", "JAPÓN", "ZORRO", "MANGA", "ARROZ", "NEGRO", "HAORI", 
-     "LARGO", "NOCHE", "MONJE"]
+let diccionario = ["ANIME", "CIELO", "LIBRO", "LIMÓN", "MADRE", "HARRY", "FRUTO", "PERRO", "ABAJO",
+    "PERLA", "LINDA", "LABIO", "ÁRBOL", "JAPÓN", "ZORRO", "MANGA", "ARROZ", "NEGRO", "DUEÑO", 
+    "LARGO", "NOCHE", "MONJE" , "BOLSO", "JABÓN", "MUJER", "LATÍN", "OREJA", "ABEJA", "CALDO", "NÚBIL", "ZAFIO", "POETA", "MACHO",
+    "AGRIO", "PLATA", "NUEVO", "VIEJO", "JOVEN", "ÓVULO", "HUEVO", "SUDOR", "CINCO", "HÉROE", "PAGAR","COSTO","COBRA",
+    "BLUSA","TEJER","SÚPER","BEBER","SOBRA","CREMA","SUAVE","FORMA","BORDE","CORRE","SALTA","LLORA","FELIZ","VOCAL","HARTO","ESTAR",
+    "INDIO","HACER","FÁCIL","SILLA","TECHO","CHAPA","RATÓN","PAPEL","ARAÑA", "MOSCA","MAMÓN","LEYES","AUTOR","ORDEN","PUEDE",
+    "COSER","COCER","CALOR","ACTOR","TRECE","CAMPO","PLATO","NUEVE","DOLOR","BUSCA","SIETE","CABLE","ADIÓS","PATIO","LOGRO","VIENE"]
 let jugadas = 6
 let green
 const BUTTON = document.getElementById("guess-button" )
@@ -57,3 +61,5 @@ function terminar(mensaje) {
     let p = document.getElementById("guesses")
     p.innerHTML = "<h2>" + mensaje + "</h2>"
 }
+
+
